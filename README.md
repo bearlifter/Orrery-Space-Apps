@@ -9,17 +9,19 @@ npx tailwindcss init -p
 
 three.js:
 
-npm install three
-npm install @react-three/fiber
-npm install @react-three/drei
+    npm install three    
+    npm install @react-three/fiber
+    npm install @react-three/drei
 
 para el backend/server:
-npm install express cors pg 
-npm install --save-dev nodemon
+
+    npm install express cors pg 
+    npm install --save-dev nodemon
 
 se modifico el package.json del server:
 
 "scripts": {
+
     "dev": "nodemon index.js",           
 
     "start": "node index.js",           
@@ -33,16 +35,16 @@ se modifico el package.json del server:
 
   //cliente
 
-  cd client
+      cd client
 
-  npm install
+      npm install
 
-  npm run dev
+      npm run dev
 
   //servidor
 
-  cd server
+      cd server
 
-  npm install
+      npm install
 
-  npm run dev
+      npm run dev
