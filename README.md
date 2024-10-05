@@ -20,9 +20,12 @@ npm install --save-dev nodemon
 se modifico el package.json del server:
 
 "scripts": {
-    "dev": "nodemon index.js",           // Script for running the development server
-    "start": "node index.js",            // Script for running the server in production
-    "test": "echo \"Error: no test specified\" && exit 1"  // Placeholder for tests
+    "dev": "nodemon index.js",           
+
+    "start": "node index.js",           
+
+    "test": "echo \"Error: no test specified\" && exit 1"  
+
   },
 
 
