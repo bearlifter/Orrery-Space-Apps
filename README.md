@@ -31,11 +31,15 @@ se modifico el package.json del server:
   //cliente
 
   cd client
+
   npm install
+
   npm run dev
 
   //servidor
 
   cd server
+
   npm install
+
   npm run dev
