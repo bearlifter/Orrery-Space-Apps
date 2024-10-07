@@ -1,15 +1,12 @@
-
-import Test from './components/Test'
-
+import Mercury from "./components/Mercury.tsx";
+import "./index.css";
 
 function App() {
-
-
   return (
-    <>
-      <Test />
-    </>
-  )
+    <div>
+      <Mercury />
+    </div>
+  );
 }
 
-export default App
+export default App;
